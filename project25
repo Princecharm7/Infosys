@@ -6,3 +6,4 @@ cd /var/www/html
 echo"My google">index.html
 service httpd start
 chkconfig httpd on
+princecharm7
