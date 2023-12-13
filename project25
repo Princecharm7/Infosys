@@ -1,8 +1,8 @@
 #1/bin/bash
 sudo su -
 yum update -y
-yum istall httpd -y
-cd/var/www/html
+yum install httpd -y
+cd /var/www/html
 echo"My google">index.html
 service httpd start
 chkconfig httpd on
